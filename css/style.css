@@ -1,0 +1,85 @@
+*{
+    font-family: "courier";
+}
+
+#header-nav{
+    background-color: yellow;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+}
+
+#nav-list li>a:hover{
+    color:white ;
+}
+
+.navbar{
+    padding:15px;
+}
+
+.navbar-brand h1{
+    color: black;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 0;
+}
+.navbar-brand a:hover{
+    text-decoration:none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#nav-list a{
+    text-align: center;
+    font-weight:600;
+    font-size:1.4em;
+    color:black;
+
+}
+
+#menu {
+    font-size: 2em;
+    font-weight: 900;
+}
+.row>section{
+    border:10px solid white;
+}
+section{
+    background-color: #2d7a9e;
+    margin-bottom:18px;
+
+}
+.title h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+section{
+    background: rgba(128, 128, 128, 0.5);
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+    #nav-list a{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #nav-list a {
+        display: none;
+    }
+    #sushi{
+        width: 100%;
+        border: 10px solid white;
+    }
+}
+@media (max-width: 767px) {
+    .row>section{
+        border:25px solid white;
+    }
+}
+
