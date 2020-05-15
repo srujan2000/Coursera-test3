@@ -72,6 +72,11 @@ section{
     #nav-list a {
         display: none;
     }
+    #sushi{
+        width:100%;
+    }
+    #beef,#chicken{
+        width:50%
 }
 @media (max-width: 767px) {
     .row>section{
