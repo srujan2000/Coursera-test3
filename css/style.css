@@ -72,10 +72,6 @@ section{
     #nav-list a {
         display: none;
     }
-    #sushi{
-        width: 100%;
-        border: 10px solid white;
-    }
 }
 @media (max-width: 767px) {
     .row>section{
